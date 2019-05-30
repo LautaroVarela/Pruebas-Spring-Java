@@ -8,26 +8,10 @@
     http://www.springframework.org/schema/context 
     http://www.springframework.org/schema/context/spring-context-3.1.xsd
 ">
-
-<bean id="MiInforme" class="colegio.personas.Informes"></bean>
-
-<!--Así se llama a un Getter-->
 <bean id="MiPersona" class="colegio.personas.DirectorPersonas">
-<constructor-arg ref="MiInforme"></constructor-arg>
-</bean> 
-
-<!--Así se llama a un Setter-->
-<bean id="MisAlumnos" class="colegio.personas.AlumnoPersonas">
-<property name="informeNuevo" ref="MiInforme"></property>
-
-<property name="nombre" value="alumnos"></property>
-<property name="edad" value="15"></property>
 
 </bean>
 
 </beans>
 
-
-
-
-<!--  si se quiere llamar a otro método en otra clase sería:"<bean id="MiPersona" class="colegio.personas.PreceptorPersonas">"-->
+//si se quiere llamar a otro método en otra clase sería:"<bean id="MiPersona" class="colegio.personas.PreceptorPersonas">"
