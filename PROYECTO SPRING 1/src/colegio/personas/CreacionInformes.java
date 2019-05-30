@@ -1,11 +1,7 @@
 package colegio.personas;
 
-public interface Personas {
-
-	public String getTareas();
+public interface CreacionInformes {
 	
 	public String getInforme();
-
-	
 
 }
