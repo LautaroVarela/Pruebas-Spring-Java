@@ -4,6 +4,7 @@ public class AlumnoPersonas implements Personas {
 
 	private CreacionInformes informeNuevo;
 	private String nombre;
+	private String email;
 	private int edad;
 	
 	public void setInformeNuevo(CreacionInformes informeNuevo) {
@@ -29,7 +30,19 @@ public class AlumnoPersonas implements Personas {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	
+	
 
+	public String getEmail() {
+		return email;
+	}
+	
+    public void setEmail(String email) {
+		this.email = email;
+	}
+    
+    
+    
 
 	public int getEdad() {
 		return edad;

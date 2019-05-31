@@ -26,6 +26,7 @@ public class MAIN {
 
 		System.out.println("Las tareas del alumno serían: " + María.getTareas());
 		System.out.println(María.getInforme());
+		System.out.println("Apellido y nombre del/la Alumno/a: " + María.getNombre());
 		System.out.println("Edad: " + María.getEdad());
 		contexto.close();
 
